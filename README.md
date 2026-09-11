@@ -8,7 +8,7 @@ This repository holds reusable GitHub community files: pull request templates, i
 
 ## 🧰 What lives here
 
-- `.github/PULL_REQUEST_TEMPLATE.md` — a risk-aware PR template that helps authors and reviewers build shared understanding before merge.
+- `.github/PULL_REQUEST_TEMPLATE.md` — a risk-tiered PR template: author fields filled from the diff, followed by a human-reviewer checklist.
 - `.github/ISSUE_TEMPLATE/incident_review.md` — a blameless, systems-focused incident review template for learning from surprises without turning them into fault hunts.
 
 ## 🪄 How GitHub uses it
@@ -19,7 +19,7 @@ Local repository files still win. If a project needs a more specific template, i
 
 ## 📝 Template philosophy
 
-The templates here are intentionally lightweight, friendly, and practical. They are designed to encourage good judgment without creating checkbox theater.
+The templates here are intentionally lightweight, friendly, and practical. Author fields have no checkboxes and must be answered from the diff with a fixed glyph vocabulary (✅, ❌, ❓, ➖); only the human reviewer uses checkboxes, to record work done toward understanding, not guarantees.
 
 They aim to help people answer:
 
